@@ -96,7 +96,9 @@
                                             </li>
                                             <li><a href="<?php echo site_url('/index.php/contact-page'); ?>">Contact</a></li>
                                            <li><button class="btn btn-primary d-none d-md-block ">
-                                            <a style="padding: 10px 0;color:#fff;" href="<?php echo site_url('/index.php/brouchure_compressed.pdf'); ?>" download>Download</a></button></li>
+                                            <!-- <a style="padding: 10px 0;color:#fff;" href="<?php echo site_url('/index.php/brouchure_compressed.pdf'); ?>" download>Download</a></button></li> -->
+                                            <a style="padding: 10px 0;color:#fff;" href="<?php echo get_stylesheet_directory_uri(); ?>/brouchure_compressed.pdf" download="">Download</a>
+
                                         </ul>
                                         
                                     </nav>
@@ -116,8 +118,10 @@
                                 </div>
                                 <div class="area-separator d-none d-lg-inline-flex"></div>
                                 <button class="btn btn-primary d-block d-md-none ">
-                                    <a style="padding: 20px 0;color:#fff;font-size: 14px;" href="<?php echo site_url('/index.php/brouchure_compressed.pdf'); ?>" download >Download</a></button>
-                                <button class="side-toggle">
+                                    <!-- <a style="padding: 20px 0;color:#fff;font-size: 14px;" href="<?php echo site_url('/index.php/brouchure_compressed.pdf'); ?>" download >Download</a></button> -->
+                                    <a style="padding: 10px 0;color:#fff;" href="<?php echo get_stylesheet_directory_uri(); ?>/brouchure_compressed.pdf" download="">Download</a>
+
+                                    <button class="side-toggle">
                                     <span class="menu__bar">
                                         <span class="bar-icon">
                                             <span></span>
