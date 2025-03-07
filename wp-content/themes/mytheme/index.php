@@ -169,7 +169,7 @@ get_header();
                                 </ul>
                             </div>
                             <div class="df-about2__button">
-                                <a href="about-v2.html" class="primary-btn">Know More
+                                <a href="<?php echo site_url('/index.php/about-us/'); ?>" class="primary-btn">Know More
                                     <span class="icon__box">
                                         <img class="icon__first" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icon/arrow-white.webp"
                                             alt="image not found">
@@ -292,7 +292,7 @@ get_header();
                 </div>
                 <div class="services__slider-pagination df__pagination mt-60 justify-content-center wow fadeInUp" data-wow-delay=".3s"></div>
                 <div class="df-about2__button text-center mt-35">
-                    <a href="services-v2.html" class="primary-btn">More services
+                    <a href="<?php echo site_url('/index.php/services-v2-page'); ?>" class="primary-btn">More services
                         <span class="icon__box">
                             <img class="icon__first" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icon/arrow-white.webp"
                                 alt="image not found">
@@ -364,7 +364,7 @@ get_header();
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="df-shop-cat-wrap mb-30 wow fadeInUp" >
-                                            <a href="plumbing-items.html">
+                                            <a href="<?php echo site_url('index.php/plumbing-items-page/'); ?>">
                                                 <div class="df-shop-cat">
                                                     <div class="df-shop-cat-content">
                                                         <div class="df-shop-cat-wrapper cat-1">
@@ -378,7 +378,7 @@ get_header();
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                            <a href="electrical-items.html">
+                                            <a href="<?php echo site_url('index.php/electrical-items'); ?>">
                                                 <div class="df-shop-cat">
                                                     <div class="df-shop-cat-content">
                                                         <div class="df-shop-cat-wrapper cat-1">
@@ -392,7 +392,7 @@ get_header();
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                            <a href="sanitary-items.html">
+                                            <a href="<?php echo site_url('index.php/sanitary-items'); ?>">
                                                 <div class="df-shop-cat">
                                                     <div class="df-shop-cat-content">
                                                         <div class="df-shop-cat-wrapper cat-1">
@@ -406,7 +406,7 @@ get_header();
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                            <a href="safety-items.html">
+                                            <a href="<?php echo site_url('index.php/safety-items'); ?>">
                                                 <div class="df-shop-cat">
                                                     <div class="df-shop-cat-content">
                                                         <div class="df-shop-cat-wrapper cat-1">
@@ -420,7 +420,7 @@ get_header();
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                            <a href="Paints.html">
+                                            <a href="<?php echo site_url('index.php/paints'); ?>">
                                                 <div class="df-shop-cat">
                                                     <div class="df-shop-cat-content">
                                                         <div class="df-shop-cat-wrapper cat-1">
@@ -434,7 +434,7 @@ get_header();
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="df-shop-cat-wrap mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                            <a href="other-items.html">
+                                            <a href="<?php echo site_url('index.php/other-items'); ?>">
                                                 <div class="df-shop-cat">
                                                     <div class="df-shop-cat-content">
                                                         <div class="df-shop-cat-wrapper cat-1">

@@ -31,7 +31,7 @@
                         <h4 class="footer__widget-title">Company</h4>
                         <div class="footer__links underline">
                             <ul>
-                                <li><a href="<?php echo site_url('/index.php/index-page'); ?>">Services</a></li>
+                                <li><a href="<?php echo site_url('/index.php/index-page'); ?>">Home</a></li>
                                 <li><a href="<?php echo site_url('/index.php/services-v2-page'); ?>">Services</a></li>
                                 <li><a href="<?php echo site_url('/index.php/about-us/'); ?>">About Us</a></li>
                                 <li><a href="<?php echo site_url('/index.php/contact-page'); ?>">Contact</a></li>
